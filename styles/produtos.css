@@ -1,0 +1,53 @@
+main {
+    background: rgb(8, 7, 7);
+}
+
+.produtos {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 2rem 8rem 1rem;
+
+    color: white;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 500px;
+
+    vertical-align: top;
+    background: black;
+    border-radius: 0 0 15px 15px;
+
+    margin: 0 1.5%;
+    padding: 75px 20px 30px;
+
+    transition: 1s;
+}
+
+.produtos li:hover {
+    background: rgb(29, 29, 29);
+}
+
+.produtos li:active {
+    background: var(--red);
+}
+
+.produtos li img {
+    width: 12rem;
+    border-radius: 100%;
+    margin: 1.5rem 0;
+}
+
+.produtos h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.produtos .preco {
+    font-weight: bold;
+
+    margin:  10px 0;
+}
+

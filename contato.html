@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/contato.css">
+    <link rel="stylesheet" href="/styles/all.css">
+    <link rel="stylesheet" href="/styles/contato.css">
+
+    <link rel="stylesheet" href="/styles/media.css">
+
+    <title>Contato | Hã?Burguer!</title>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="#">
+            <img src="img/logo-black-color.png" alt="Logo Hã?Burguer">
+        </a>
+        <nav>
+            <ul>
+                <li><a class="nav" href="index.html">Home</a></li>
+                <li><a class="nav" href="produtos.html">Produtos</a></li>
+                <li><a class="nav" href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <form action="">
+            <label for="nomeCompleto">Nome completo</label>
+            <input type="text" id="nomeCompleto" class="input-padrao" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="celular">Celular</label>
+            <input type="tel" id="celular" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Deixe sua sugestão de lanche</label>
+            <textarea id="mensagem" cols="30" rows="6" class="input-padrao"></textarea>
+
+            <fieldset>
+                <legend>Qual seu lanche favorito?</legend>
+                <label for="lanche1"><input type="radio" name="favorito" value="lanche1" id="lanche1">x-salad</label>
+
+                <label for="lanche2"><input type="radio" name="favorito" value="lanche2" id="lanche2">ribs and
+                    cheese</label>
+
+                <label for="lanche3"><input type="radio" name="favorito" value="lanche3" id="lanche3">black
+                    chicken</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Em qual momento do dia você tem mais vontade de saborear um hamburguer?</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                    <option value="">Qualquer horário</option>
+                </select>
+            </fieldset>
+
+            <label><input type="checkbox" class="checkbox"> Sou vegano(a).</label>
+
+            <input type="submit" value="MANDA BALA!" class="enviar">
+        </form>
+
+        
+        <!-- <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Horário de Funcionamento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Terças a Quintas</td>
+                    <td>17h30 - 01h00</td>
+                </tr>
+                <tr>
+                    <td>Sextas a Domingos</td>
+                    <td>15h00 - 02h00</td>
+                </tr>
+            </tbody>
+        </table> -->
+
+    </main>
+
+    <footer class="container endereco">
+        <div>
+            <h3>REDES SOCIAIS</h3>
+            <ul class="margin-top-um">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">WhatsApp</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>ENDEREÇOS</h3>
+            <ul class="margin-top-um">
+                <li>Rua Na Quadra de Trás, 100</li>
+                <li>Avenida Logo Ali, 145</li>
+                <li>Rua Perto da Maria, 721 </li>
+            </ul>
+        </div>
+    </footer>
+
+    <a class="fim" href="https://github.com/amandaperrone" target="_blank">Criado com fome por Amanda Perrone 🍔</a>
+
+</body>
+
+</html>

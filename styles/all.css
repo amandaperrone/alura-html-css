@@ -1,0 +1,127 @@
+:root {
+    --title: 'Asap Condensed', sans-serif;
+    --body: 'Open Sans', sans-serif;
+    --orange: #ff914d;
+    --red: #ff1616;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body);
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img {
+    height: 10rem;
+}
+
+nav {
+    background-color: var(--orange);
+}
+
+nav ul {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 10%;
+}
+
+.nav {
+    text-transform: uppercase;
+    text-decoration: none;
+
+    font-family: var(--title);
+    color: black;
+
+    transition: 0.2s;
+}
+
+.nav:hover {
+    color: white;
+}
+
+/* CONTAINER */
+
+.container {
+    padding: 4rem 10%;
+}
+
+/* ETC */
+.margin-top-um {
+    margin-top: 1rem;
+}
+
+h3 {
+    font-family: var(--title);
+    font-size: 2rem;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    line-height: 1.5em;
+    /* font-size: 0.8em; */
+    
+}
+
+footer div {
+    text-align: start;
+}
+
+footer div + div {
+    text-align: end;
+}
+
+footer a { 
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #ff914d;
+}
+
+.endereco {
+    background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url('../img/elizabethJamieson-unsplash.jpg') no-repeat center/100%;
+    color: white;
+    
+}
+
+.endereco ul {
+    list-style-type: none;
+}
+/*  */
+.fim {
+    color: white;
+    background: black;
+    text-align: center;
+
+    padding: 0.5em 0;
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+.fim:hover {
+    color: var(--red);
+}

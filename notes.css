@@ -1,0 +1,32 @@
+/* SELETORES/PSEUDOCLASSES
+
+div:first-child => pega o primeiro elemento filho
+div:last-child => pega o último elemento
+div:nth-child(3) => pega o terceiro elemento
+div:nth-child(2x) => pega os múltiplos de 2, nesse caso os pares
+
+h3::first-letter => muda a primeira letra do elemento
+
+p::first-line => pega a primeira linha
+
+div::before => coloca algo antes
+div::after => coloca algo depois
+
+body > p => filho direto de body
+
+img + p => parágrafo que vem logo após uma imagem
+img ~ p => TODOS os parágrafos que vem depois de uma imagem
+
+body p:not(#missao) => todos os parágrafos que não tem o id #missao
+
+*/
+
+/* CONTAS 
+
+width: calc(40% - 26px)
+
+
+
+
+
+*/
